@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #919191;
+    padding: 20px 40px;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
