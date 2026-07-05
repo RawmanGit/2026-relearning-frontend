@@ -14,13 +14,16 @@
         <title>2026-relearning-frontend</title>
     </head>
     <body>
-        <header>
-            <h1>Grow faster with Acme</h1>
-            <p>Launch pages in minutes. No code required.</p>
-            <button>Start Free Trial</button>
-        </header>
         <main>
-            <div class="container">
+            <section class="hero">
+                <!-- headline, subheading, button -->
+                <h1>Grow faster with Acme</h1>
+                <p>Launch pages in minutes. No code required.</p>
+                <button>Start Free Trial</button>
+            </section>
+
+            <section class="features">
+                <!-- 3 cards -->
                 <div class="card">
                     <h2>Easy editing</h2>
                     <p>Update pages quickly with reusable blocks.</p>
@@ -33,34 +36,38 @@
                     <h2>Easy editing</h2>
                     <p>Update pages quickly with reusable blocks.</p>
                 </div>
-            </div>
+            </section>
+
+            <section class="offer">
+                <!-- pricing -->
+                <div class="plan">
+                    <h3>Starter</h3>
+                    <h2 class="price">$9/mo</h2>
+                    <ul>
+                        <li>Basic features</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button>Choose Starter</button>
+                </div>
+                <div class="plan">
+                    <h3>PRO</h3>
+                    <h2 class="price">$29/mo</h2>
+                    <ul>
+                        <li>All features</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <button>Start PRO</button>
+                </div>
+            </section>
         </main>
-        <section class="CTA">
+
+        <section class="social">
+            <!-- icons -->
             <ul>
                 <li><i class="fa-brands fa-facebook"></i></li>
                 <li><i class="fa-brands fa-twitter"></i></li>
                 <li><i class="fa-brands fa-instagram"></i></li>
             </ul>
-        </section>
-        <section class="offer">
-            <div class="container">
-                <h3>Starter</h3>
-                <h2 class="price">$9/mo</h2>
-                <ul>
-                    <li>Basic features</li>
-                    <li>Email support</li>
-                </ul>
-                <button>Choose Starter</button>
-            </div>
-            <div class="container">
-                <h3>PRO</h3>
-                <h2 class="price">$29/mo</h2>
-                <ul>
-                    <li>All features</li>
-                    <li>Priority support</li>
-                </ul>
-                <button>Start PRO</button>
-            </div>
         </section>
     </body>
 </html>
