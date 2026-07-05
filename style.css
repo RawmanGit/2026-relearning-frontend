@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #f8fafc;
+}
+
+.hero {
+    background: #e5ffda;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero h1 {
+    margin: 10px 0;
+}
+
+.hero p {
+    margin: 10px 0;
+}
+
+.hero button {
+    background: #33a75f;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero button:hover {
+    cursor: pointer;
+}
