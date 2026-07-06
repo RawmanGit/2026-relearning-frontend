@@ -143,3 +143,32 @@ body {
     border-radius: 12px;
     margin: 12px auto;
 }
+
+.social {
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.social ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+    font-size: 50px;
+}
+
+.social ul li {
+    text-decoration: none;
+}
+
+.social .fa-facebook {
+    color: rgb(47, 0, 255);
+}
+
+.social .fa-twitter {
+    color: #1dcaff;
+}
+
+.social .fa-instagram {
+    color: #ffd600;
+}
